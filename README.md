@@ -1,6 +1,6 @@
 # ASAP: Advancing Semantic Alignment Promotes Multi-Modal Manipulation Detecting and Grounding  
 
-This repository contains the official implementation of **ASAP**, proposed in our paper:  [![arXiv]](https://arxiv.org/abs/2412.12718)  
+This repository contains the official implementation of **ASAP**, proposed in our paper:  [![arXiv](https://upload.wikimedia.org/wikipedia/commons/a/a8/ArXiv_logo.svg)](https://arxiv.org/abs/2412.12718)  
 
 We will release the code here soon. Stay tuned! 🚀  
 
