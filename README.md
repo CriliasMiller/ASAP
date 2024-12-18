@@ -36,8 +36,16 @@ You can star this repository and check back for updates! ⭐
 
 ---
 
-<!-- ## 📄 Citation  
+## 📄 Citation  
 
-If you find our work helpful, please cite the paper:   -->
-
-<!-- -->
+If you find our work helpful, please cite the paper:
+```bibtex
+@misc{zhang2024asapadvancingsemanticalignment,
+      title={ASAP: Advancing Semantic Alignment Promotes Multi-Modal Manipulation Detecting and Grounding}, 
+      author={Zhenxing Zhang and Yaxiong Wang and Lechao Cheng and Zhun Zhong and Dan Guo and Meng Wang},
+      year={2024},
+      eprint={2412.12718},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.12718}, 
+}
