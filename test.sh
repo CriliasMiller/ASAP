@@ -1,5 +1,3 @@
-# EXPID='your_best_model_dir_name'
-# EXPID='log20240403_164916'
 EXPID='log20250412_181657_train_without_GCN'
 export CUDA_VISIBLE_DEVICES=1
 HOST='127.0.0.1'
