@@ -43,16 +43,7 @@ class ASAP(nn.Module):
         self.visual_encoder = VisionTransformer(
             img_size=config['image_res'], patch_size=16, embed_dim=768, depth=12, num_heads=12, 
             mlp_ratio=4, qkv_bias=True, norm_layer=partial(nn.LayerNorm, eps=1e-6))   
-        
-        # if init_deit:
-        #     checkpoint = torch.hub.load_state_dict_from_url(
-        #         url="https://dl.fbaipublicfiles.com/deit/deit_base_patch16_224-b5f2ef4d.pth",
-        #         map_location="cpu", check_hash=True)
-        #     state_dict = checkpoint["model"]
-        #     pos_embed_reshaped = interpolate_pos_embed(state_dict['pos_embed'], self.visual_encoder)
-        #     state_dict['pos_embed'] = pos_embed_reshaped
-        #     msg = self.visual_encoder.load_state_dict(state_dict,strict=False)
-        #     print(msg)          
+              
             
         vision_width = config['vision_width']       
         bert_config = BertConfig.from_json_file(config['bert_config'])
