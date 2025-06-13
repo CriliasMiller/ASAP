@@ -41,12 +41,23 @@ We heavily used the code from https://github.com/rshaojimmy/MultiModal-DeepFake
 
 If you find our work helpful, please cite the paper:
 ```bibtex
-@misc{zhang2024asapadvancingsemanticalignment,
-      title={ASAP: Advancing Semantic Alignment Promotes Multi-Modal Manipulation Detecting and Grounding}, 
-      author={Zhenxing Zhang and Yaxiong Wang and Lechao Cheng and Zhun Zhong and Dan Guo and Meng Wang},
-      year={2024},
-      eprint={2412.12718},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.12718}, 
+@article{DBLP:journals/corr/abs-2412-12718,
+  author       = {Zhenxing Zhang and
+                  Yaxiong Wang and
+                  Lechao Cheng and
+                  Zhun Zhong and
+                  Dan Guo and
+                  Meng Wang},
+  title        = {{ASAP:} Advancing Semantic Alignment Promotes Multi-Modal Manipulation
+                  Detecting and Grounding},
+  journal      = {CoRR},
+  volume       = {abs/2412.12718},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2412.12718},
+  doi          = {10.48550/ARXIV.2412.12718},
+  eprinttype    = {arXiv},
+  eprint       = {2412.12718},
+  timestamp    = {Mon, 10 Feb 2025 17:14:18 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2412-12718.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
