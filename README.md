@@ -2,7 +2,7 @@
 
 This repository contains the official implementation of **ASAP**, proposed in our paper accepted to **CVPR 2025**:  
 📄 **CVPR 2025 Paper:**  
-[ASAP: Advancing Semantic Alignment Promotes Multi-Modal Manipulation Detecting and Grounding](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_ASAP_Advancing_Semantic_Alignment_Promotes_Multi-Modal_Manipulation_Detecting_and_Grounding_CVPR_2025_paper.pdf)
+[Paper Address](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_ASAP_Advancing_Semantic_Alignment_Promotes_Multi-Modal_Manipulation_Detecting_and_Grounding_CVPR_2025_paper.pdf)
 
 ---
 
