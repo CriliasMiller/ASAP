@@ -1,7 +1,8 @@
 # ASAP: Advancing Semantic Alignment Promotes Multi-Modal Manipulation Detecting and Grounding
 
-This repository contains the official implementation of **ASAP**, proposed in our paper:  
-[![arXiv](https://img.shields.io/badge/arXiv-2412.12718-B31B1B.svg)](https://arxiv.org/abs/2412.12718)
+This repository contains the official implementation of **ASAP**, proposed in our paper accepted to **CVPR 2025**:  
+📄 **CVPR 2025 Paper:**  
+[ASAP: Advancing Semantic Alignment Promotes Multi-Modal Manipulation Detecting and Grounding](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_ASAP_Advancing_Semantic_Alignment_Promotes_Multi-Modal_Manipulation_Detecting_and_Grounding_CVPR_2025_paper.pdf)
 
 ---
 
@@ -21,7 +22,9 @@ It focuses on improving **cross-modal semantic alignment** between images and te
 - **State-of-the-Art Performance:**  
   Extensive experiments demonstrate that ASAP significantly outperforms previous methods on multi-modal manipulation detection and grounding tasks.
 
-![ASAP Framework Overview](./examples/framework.png)
+<p align="center">
+  <img src="./examples/framework.png" alt="ASAP Framework Overview" width="700"/>
+</p>
 
 ---
 
@@ -31,33 +34,25 @@ We have released the **first version** of the code in this repository.
 For dataset preparation and environment setup, please refer to the detailed instructions in:  
 👉 [MultiModal-DeepFake (by rshaojimmy)](https://github.com/rshaojimmy/MultiModal-DeepFake)
 
-More features and training scripts will be added soon. Stay tuned! 🔧
-
 ---
 
 ## 📂 Acknowledgement
-We heavily used the code from https://github.com/rshaojimmy/MultiModal-DeepFake
+
+We sincerely thank the authors of [MultiModal-DeepFake](https://github.com/rshaojimmy/MultiModal-DeepFake) for their excellent work.  
+We heavily used the code from their repository in developing this project.
+
+---
+
 ## 📄 Citation  
 
-If you find our work helpful, please cite the paper:
+If you find our work helpful, please cite our CVPR 2025 paper:
+
 ```bibtex
-@article{DBLP:journals/corr/abs-2412-12718,
-  author       = {Zhenxing Zhang and
-                  Yaxiong Wang and
-                  Lechao Cheng and
-                  Zhun Zhong and
-                  Dan Guo and
-                  Meng Wang},
-  title        = {{ASAP:} Advancing Semantic Alignment Promotes Multi-Modal Manipulation
-                  Detecting and Grounding},
-  journal      = {CoRR},
-  volume       = {abs/2412.12718},
-  year         = {2024},
-  url          = {https://doi.org/10.48550/arXiv.2412.12718},
-  doi          = {10.48550/ARXIV.2412.12718},
-  eprinttype    = {arXiv},
-  eprint       = {2412.12718},
-  timestamp    = {Mon, 10 Feb 2025 17:14:18 +0100},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2412-12718.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{zhang2025asap,
+  title     = {{ASAP:} Advancing Semantic Alignment Promotes Multi-Modal Manipulation Detecting and Grounding},
+  author    = {Zhenxing Zhang and Yaxiong Wang and Lechao Cheng and Zhun Zhong and Dan Guo and Meng Wang},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2025},
+  pages     = {To appear},
+  url       = {https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_ASAP_Advancing_Semantic_Alignment_Promotes_Multi-Modal_Manipulation_Detecting_and_Grounding_CVPR_2025_paper.pdf}
 }
